@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TERCERA APLICACION</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/tec2.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="b">
+    <h1> <b>CARRERAS QUE PODRIA ESTUDIAR </b></h1>
+</div>
+
+<!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider-iframe.html" style="width:700px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<div data-role="main" class="ui-content">
+  </div>
+   <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> PILOTO AVIADOR</h2>
+   <p> Muestra su uvicacion </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> ESTILISMO Y COSMETOLOGIA</h2>
+   <p>Nos permite conocer su tamaño  </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>LICENCIATURA EN DERECHO</h2>
+   <p>Nos muestra informacion acerca de esta carrera</p>
+   </a>
+   </li>
+   </ul> 
+    <div data-role="collapsible" data-content-theme="false"> 
+    <h2> datos del autor </h2>
+       <p>Centro de Bachillerato Tecnologico industrial y de servicios no.16 (CBTis 16)<br>
+Pamela Degante Cruz <br>
+4to "H" </p>
+  </div> 
+   
+  </div>
+<div data-role="footer" align="center" data-theme="b">
+   <div>
+   
+   </div>
+    <div>
+    </div>
+    <h4>Carreras que quiero estudiar</h4>
+    <img src="res/android/mdpi.png" width="48" height="48">
+<h4> PAMELA DEGANTE CRUZ</h4>
+  </div>
+    </div>
+    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+     <h1>PILOTO AVIADOR</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen de la Escuela Militar de Aviación. </h2>
+<img src="imagenes/esc.jpg" width="50%" height="50%"></div>
+       <p> La carrera de Piloto Aviador Militar constituye el pilar fundamental de la Fuerza Aérea Mexicana, ya que su esencia es la operación misma de las aeronaves militares y la administración de los diferentes Organismos y Dependencias que la integran, salvaguardando la integridad y soberanía del espacio aéreo nacional. 
+</p>
+        <p><img src="imagenes/pam1.jpg" width="50%" height="50%"></p>
+ <p> Duración de la carrera</p>
+
+<p>Piloto privado: Dependiendo del lugar donde se estudie, tanto la duración del curso y las horas de vuelo simulado y real es variable. El curso puede duras de 6 a 12 meses. La horas de vuelo práctico entre 40 a 42, mientras que el vuelo simulado puede ser de 5 horas.
+
+Piloto aviador comercial: Capacitación de 1 a 3 años dependiendo de la institución, más 142 horas de vuelo práctico y sus respectivas horas de vuelo en simulador (50 hrs.). Para poder cursar esta etapa se tiene que presentar la licencia de piloto privado.</p>
+         <p><img src="imagenes/pam2.jpg" width="50%" height="50%"></p>
+                 <p>1.- Áreas de estudio:</p>
+                 <p> Las áreas principales de estudio que comprende, entre otras,  la carrera de Piloto Aviador Militar, son las siguientes: </p>
+                 <li> Prácticas de vuelo real. </li>
+                  <li>Prácticas de vuelo simulado por instrumentos.</li> 
+                  <li>Navegación aérea. </li>
+                  <li>Reglamentación aérea. </li>
+                  <li>Servicio de tránsito aéreo. </li>
+                  <li>Meteorología. </li>
+                  <li>Radiocomunicaciones aeronáuticas. </li>
+                 <li> Aerodinámica. </li>
+         <p> </p>
+       <img src="imagenes/pam3.jpg" width="50%" height="50%">
+      <h3>Campos de aplicación:</h3> 
+ <p> Al egresar como Oficial de Fuerza Aerea Piloto Aviador, Licenciado en Administración Militar, el ámbito para realizar la actividad profesional de trabajo, serán las Unidades, Dependencias e Instalaciones de la Fuerza Aérea Mexicana, tales como Bases Aéreas, Escuadrones Aéreos, Planteles Militares, etc.</p>
+       <img src="imagenes/pam4.jpg" width="50%" height="50%">
+      <h3>Requisitos para titulación:</h3><br>
+         <li>Cubrir los créditos necesarios.<br> </li>
+           <li> Examen profesional<br></li>
+      <h3> Documentos que se otorgan al egresar:</h3><br>
+ <li>Patente de Subteniente de Fuerza Aérea Piloto Aviador.<br></li>
+           <li> Título de Licenciado en Administración Militar. <br></li>
+           <li> Cédula profesional.<br></li>
+         <li> Certificado de estudios. </p></li>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image55','','imagenes/tec2.jpg',1)"><img src="imagenes/aire2.jpg" width="350" height="233" id="Image55"></a>
+         <h2>Algunas escuelas que ofrecen esta carrera </h2>
+</div>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> La CFA </h2>
+       <p><img src="imagenes/cfa1.jpg" width="50%" height="50%">
+      </p>
+       <p>Oportunidades Laborales Como Graduado De La CFA
+        Como piloto con licencia y graduado de la California Flight Academy (CFA), tendrá la capacidad de conducir diferentes tipos de aeronaves y trabajar en diferentes áreas y puestos. Ejemplos:</p>
+       <p> Piloto de aerolínea comercial<br>
+         Piloto de aerolínea regional<br>
+         Piloto de vuelo chárter<br>
+         Piloto de aerolínea de carga/transporte de mercancías<br>
+         Piloto de fuerzas armadas y militares<br>
+         Instructor de vuelo<br>
+         Piloto en la selva<br>
+         Piloto de avión de publicidad aérea<br>
+         Piloto fumigador agrícola<br>
+        Cursos Y Habilitaciones Ofrecidas</p>
+       <p><br>
+        Como escuela aprobada por la FAA de acuerdo con las partes 61 y 141, tenemos el placer de ofrecerle lo siguiente:</p>
+         <p>Licencia de piloto privado (PPL)<br>
+           Habilitación de vuelo instrumental<br>
+           Habilitación multimotor comercial<br>
+           Piloto de transporte de aerolínea (ATP)<br>
+           Instructor de vuelo certificado (CFI)<br>
+           Instructor de vuelo instrumental certificado (CFII)<br>
+           Instructor de vuelo multimotor (MEI)<br>
+           <img src="imagenes/cfa2.jpg" width="50%" height="50%">
+      <p>Los Pilotos Más Importantes Comienzan En California Flight Academy
+      </p>
+         <p>La CFA es una escuela de vuelo reconocida mundialmente, que ha entrenado a miles de estudiantes de todas partes del mundo. Los graduados se han convertido con éxito en pilotos privados, instructores de vuelo y pilotos de aerolíneas comerciales. Ventajas de una educación en la CFA:</p>
+         <p> Reputación de excelencia: con más de 80.000 horas de vuelo cumplidas, graduados exitosos de todo el mundo y cero lesiones de estudiantes, nuestra trayectoria crece rápidamente.
+           Instructores de vuelo experimentados y acreditados: los instructores de vuelo de la CFA se seleccionan minuciosamente con las certificaciones, credenciales y experiencia adecuadas.           </p>
+         <p>Aprobada por la Administración Federal de Aviación (FAA) y certificada por Cessna: la CFA está aprobada por la Administración Federal de Aviación de los Estados Unidos (FAA, por sus siglas en inglés), tanto para el entrenamiento de la parte 61 como para el de la parte 141. Esto significa que nuestras instalaciones de entrenamiento, plan de estudios, instructores de vuelo principales y aeronaves están inspeccionados y aprobados por la FAA.           </p>
+        <p>Horas de vuelo superiores a las estándares: todos los cursos están diseñados para brindarle más de la cantidad mínima de horas de vuelo solo y con acompañante que ofrece la FAA. </p>
+        <img src="imagenes/cfa3.jpg" width="50%" height="50%">
+         <p>Además, se incluyen horas de simulación, instrucción en tierra e instrucción interactiva por medio de computadoras.</p>
+         <p> Instalación y aeropuerto internacional: la pista aérea de la CFA se encuentra en Gillespie Field, en el condado de San Diego. Gillespie apoya un ambiente controlado y bien cuidado, que también incluye una torre de control de la FAA.</p>
+         <p> Clima excepcional, ideal para volar: la CFA se encuentra en el soleado condado de San Diego, California, en los Estados Unidos de América. El agradable clima de San Diego no solo hace que sea el lugar perfecto sino, más importante aún, uno de los lugares más ideales para volar con 320 días soleados por año.</p>
+         <p> Flota de aviones sumamente mantenidos: la flota de la CFA cuenta con diversos aviones mantenidos de manera meticulosa por sobre los estándares industriales. Nuestros mecánicos certificados por la FAA se encargan de cada uno de ellos, y la seguridad es nuestra principal prioridad. La flota de la CFA incluye los siguientes aviones:</p>
+          <p>Cessna 152<br>
+           Cessna 162 Skycatcher<br>
+           Cessna 172N<br>
+           Cessna 172SP<br>
+           Piper Warrior<br>
+           Beech Duchess<br>
+           Piper Seneca</p>
+         <br>
+          <img src="imagenes/cfa4.jpg" width="50%" height="50%">
+           <p> Otros aviones se arrendan según sea necesario para cumplir con los requisitos de los estudiantes</p>
+          <p> Información Para Estudiantes Internacionales</p>
+          <p> Obtención de visa para los Estados Unidos</p>
+          <p> En CFA, estamos para asegurar que su transición a los Estados Unidos sea simple y cómoda. Contamos con muchos años de experiencia en el traslado de estudiantes a los Estados Unidos y lo ayudaremos en todos los pasos del proceso de obtención de la visa. Complete y envíe el formulario anterior para obtener ayuda.           </p>
+          <p>Transferencia de horas de vuelo de la CFA y certificaciones de la FAA a otros países</p>
+          
+          <p> Con una amplia experiencia en el trabajo con estudiantes internacionales de todas partes del mundo, la CFA lo ayuda a transferir sus licencias y habilitaciones a su país de origen según sus necesidades individuales.</p>
+          <p> Solicitud de ingreso           </p>
+          <img src="imagenes/cfa5.jpg" width="50%" height="50%">
+          <p>Lo primero que debe hacer para solicitar el ingreso a la CFA es completar el formulario anterior y uno de nuestros cordiales asesores de ingreso se contactará con usted a la brevedad. Su asesor responderá cualquier pregunta que tenga y lo ayudará a comprender el proceso de admisión en detalle. </p>
+          <p><a href="http://flycfa.com/">haz click aqui para obtener mas informacion </a></p>
+          </p>
+</div>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> Tec blue </h2>
+       <img src="imagenes/tec1.png" width="50%" height="50%">
+        </p>
+       <p>El adelanto tecnológico que se ha experimentado por la ciencia aeronáutica requiere contar con un personal debidamente capacitado, cuya capacitación e instrucción teórica y practica respondan a una planificación destinada a la seguridad, regularidad y eficiencia de la aviación en general.</p>
+       <p> Considerando que la integración socio-económica del país constituye el pilar fundamental para nuestro desarrollo sistemático, la industria aeronáutica jugará un papel muy importante mediante la vinculación aérea. Debido a esta razón, debemos dar carácter y atención prioritario a la preparación e instrucción académica del personal humano que dirigirá la aviación civil.         </p>
+       <img src="imagenes/tec2.jpg" width="50%" height="50%">
+       <p>Visón</p>
+       <p> Ser el centro líder de capacitación aeronáutico a nivel nacional, sobrepasando los estándares nacionales y permitiendo que nuestro personal de vuelo cuente con aptitudes para ejercer internacionalmente, siempre manteniendo la vanguardia en seguridad, tecnología, personal docente, servicio al cliente y humanismo</p>
+       <p> Misión</p>
+       <p> TecBlue fundamenta su existencia como el MEJOR CENTRO NACIONAL DE AVIACION en la formación y capacitación de pilotos privados, comerciales, sobrecargos, personal de operación, etc, para el transporte aéreo, beneficiando empleos, educación y el desarrollo económico del país.</p>
+       <img src="imagenes/tec3.jpg" width="50%" height="50%">
+       <p> Nuestro conocimiento aeronáutico y la capacidad docente certificada, además de contar con las últimas tecnologías educativas para esta área, nos convierten en una institución que afronta el desafío de nuevos conocimientos y nos pone a la vanguardia en el desarrollo de los mejores procesos de capacitación y capacidades. </p>
+       <p><a href="http://tecblue.mx/">haz click aqui para obtener mas informacion </a></p>
+          </p> 
+</div>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2>Escuela del Aire</h2>
+<img src="imagenes/aire1.jpg" width="50%" height="50%">
+<p>
+Con más de 10 años operando, nuestro Centro de Formación y Capacitación se ha convertido en una de las mejores opciones para cursar las carreras de Piloto Aviador Privado y Comercial de Ala Fija. <br>
+Nuestras instalaciones, se encuentran situadas en uno de los aeródromos regionales más importantes de la Ciudad de México dado que sus características orográficas y elevación del mismo, hacen que nuestros pilotos exploten al máxicmo sus capacidades teóricas y técnicas dada la complejidad de sus exigencias.<br>
+En nuestro Centro de Formación inculcamos a nuestros pilotos valores éticos, morales, de responsabilidad, seguridad, compromiso y profesionalización que resultarán indispensables para su vida profesional.</p>
+<img src="imagenes/aire2.jpg" width="50%" height="50%">
+<p> 
+Contamos con instructores de amplia experiencia teórica y práctica, que se apegan a los más altos estándares de calidad y seguridad mismos que tienen un constante y permanente contacto con los alumnos con el objeto de explotar al máximo sus capacidades como pilotos aviadores.
+De la misma forma nuestros aviones y simulador sintético se encuentran certificados por las autoridades aeronáuticas para proveer la mejor calidad de instrucción.<br>
+En AIRE, desarrollamos un excelente ambiente con los estudiantes y hacemos nuestro el sueño de todos y cada uno de nuestros alumnos ya que nuestra pasión por la aviación es compartida.
+<br>
+Nuestro equipo de vuelo, es el más adecuado para el aprendizaje, contando con normas exigentes de mantenimiento las cuales cumplen las rigurosas exigencias internacionales de seguridad y las certificaciones de Dirección General de Aeronáutica Civil (D.G.A.C.), lo que desde luego, permitirá una instrucción de vuelo seguro.
+</p>
+<p> Misión:
+
+¡Formar pilotos aviadores con las mejores bases humanas y teóricas!</p>
+<p>Visión:
+  
+  Trascendencia y liderazgo en la formación y capacitación de los mejores pilotos aviadores para México y para el mundo. </p>
+<p><img src="imagenes/aire3.jpg" width="50%" height="50%">
+  
+</p>
+<p><a href="http://www.escueladelaire.com/">haz click aqui para obtener mas informacion </a></p>
+ </div>
+</div>
+       </div>
+<div data-role="footer"data-theme="a">
+       <h4>Aplicacion final, DCP </h4>
+  </div>
+</div>
+
+     
+     
+     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> ESTILISMO Y COSMETOLOGIA</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/es1.jpg" width="50%" height="50%">
+       <P> La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales.</P>
+       <p><img src="imagenes/es2.jpg" width="50%" height="50%"></p>
+       <p>La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales. </p>
+      
+       <p><img src="imagenes/es3.jpg" width="50%" height="50%"></p>
+       <p>La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales. </p>
+      
+       <p><img src="imagenes/es4.jpg" width="50%" height="50%"></p>
+       <p>La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales. </p>
+       
+       <p><img src="imagenes/es5.jpg" width="50%" height="50%"></p>
+       <p>La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales.</p>
+       <H1> ESCUELAS QUE OFRECEN ESTA CARRERA</H1>
+      <div data-role="collapsible" data-content-theme="false"> 
+       <h2> ELEGANCE </h2>
+       <img src="imagenes/el1.gif" width="50%" height="50%">
+       <P>  
+       MISIÓN</P>
+       <P>Egresar estilistas profesionales de alto rendimiento con solidos conocimientos y experiencia profesional conjunta,basado en planes de estudio actualizados y practicos.</P>
+       <P> VISIÓN </P>
+       <P>Ser reconocido como un centro de formación profesional generador de profesionales en belleza de gran impacto, capaces de desarrollar servicios de alta calidad. </P>
+       <P><img src="imagenes/el2.jpg" width="50%" height="50%">         </P>
+       
+       <P>HISTORIA</P>
+       <p> Elegance nace el 2 de Marzo del 2009 con el objetivo primordial de ofrecer capacitación profesional a bajo costo con una excelente calidad formativa, otorgando beneficios unicos como lo es el prestamo de herramientas, capacitación no escolarizada, recuperación de clases, clases 95% practicas entre muchas otras cosas mas.</p>
+       <P><img src="imagenes/el3.jpg" width="50%" height="50%">         </P>
+       <P>Los egresados de la carrera de estiilista profesional con especialidad en diseño de imagen, estaran capacitados para realizar servicios de belleza de cualquier indole, desde un corte de cabello clasico hasta un cambio de imagen vanguardista. Esta carrera es una de las mas completas en el ramo de la belleza, cuenta con excelentes expectativas de trabajo e ingresos a corto plazo, ya que nuestros estudiantes, a los tres meses de haber iniciado sus estudios, empiezan a recibir sus primeros ingresos, teniendo la posibilidad de pagar ellos mismos sus estudios</P>
+       <p><img src="imagenes/el4.jpg" width="50%" height="50%"></p>
+       <p>CAMPO LABORAL</p>
+      
+       <P> Nuestros egresados tienen la facultad de trabajar en cualquier estetica o spa propio o de un tercero, ya que certificamos que nuestros estudiantes, se encuentran en un muy alto nivel educativo.</P>
+       <p><img src="imagenes/el5.png" width="50%" height="50%"></p>
+       <p>DURACION</p>
+       <ul>
+         <li>
+           Normal: 12 Meses.</li>
+         <li> Intensivo: 6 Meses. </li>
+       </ul>
+       <p> DOCUMENOS A OBTENER</p>
+       <ul>
+         <li> Certificado de Estilista Profesional Diseñadora de Imagen </li>
+         <li>Diploma de Estilista Profesional Diseñadora de Imagen</li>
+         <li>Certificado de Estilismo y Bienestar Personal</li>
+         <li>Diploma de Estilismo y Bienestar Personal<br>
+         </li>
+       </ul>
+       <p><a href="http://www.academias-elegance.com/responsive/index.php">haz click aqui para obtener mas informacion </a></p>
+       <p>&nbsp;</p>
+        </div>
+<div data-role="collapsible" data-content-theme="false"> 
+  <h2>  Academia de Belleza Yog </h2>
+       <img src="imagenes/yo1.jpeg" width="50%" height="50%">
+<p>Somos una institución fundada hace más de 40 años que nació de la necesidad que demanda el arte de la imagen pensando en formar consultores de imagen y diseñadores de la belleza a nivel profesional capaces de desarrollarse en un campo laboral amplio y sin límites por todo el mundo. </p>
+       <img src="imagenes/yo2.png" width="50%" height="50%">
+       <p> Somos academia de belleza yog
+Que nació y creció por gente como tú que ´piensa en grande.
+Somos experiencia
+Somos la formación profesional que buscas</p>
+       <p><img src="imagenes/yo3.jpg" width="50%" height="50%">
+         </p>
+       <ul>
+         <li>Manicure
+           </li>
+         <li>Pedicure</li>
+         <li> Spa manos y pies</li>
+         <li> Tecnica de uñas y decorado</li>
+         <li> Depilación facial y corporal</li>
+         <li> Pestaña de tira, trio y uno por uno</li>
+         <li> Rizado de pestañas
+           </li>
+         <li>Faciales
+           </li>
+         <li>Planchado de cejas
+           </li>
+         <li>Maquillaje profesional </li>
+         
+  </p></ul>
+           <p><img src="imagenes/yo4.jpg" width="50%" height="50%">         
+     </p>
+           <p>Bienvenidos a la educación de los nuevos estilistas con maestros talentosos que te harán soñar, superarte y triunfar creemos que el conocimiento es la clave del éxito cualquier sueño se puede, basándonos en las últimas tendencias de la moda de esta hermosa profesión, disfruta y crece. </p>
+          <p> </p>
+          <p><img src="imagenes/yo5.jpg" width="50%" height="50%"></p>
+          <p>corte:</p>
+          <p>Simétricos, asimétricos, desconectados, cóncavos, etc. Uso de tijera y navajas</p>
+          <p>color:</p>
+          <p>Conocimiento teórico y práctico efectos de luz y sombra, extracciones, combinación de color- color de fantasía, encartuchados con diferentes efectos – decapage, etc.</p>
+          <p>peinados:</p>
+          <p>Broushing – Recogidos encapsulados crepes- pasarela – Noche – XV años – Novias.</p>
+         <a href="http://www.academiayog.com.mx/" target="">haz clic aqui para obtener mas informacion</a>
+          
+</div>
+
+
+
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> Europa </h2>
+       <img src="imagenes/eu1.png" width="50%" height="50%">
+<p> En Instituto Europa somos una academia de belleza especializada en la carrera de  Estilista Profesional  y Cultora de Belleza, contamos con el mejor método de aprendizaje certificado internacionalmente y los profesores mejor capacitados del país.</p>
+<img src="imagenes/eu2.jpg" width="50%" height="50%">
+<p>Comprometidos con la sociedad poblana Instituto Europa pone a tu alcance una enseñanza sofisticada y sobre todo de calidad, en nuestra escuela de estilismo tenemos unas instalaciones optimas que ayudaran a que puedas desarrollar tu habilidad y hacer de ti un caso de ÉXITO. </p>
+<img src="imagenes/eu3.jpg" width="50%" height="50%">
+<p> rupo Europa  es un  consorcio líder en Puebla especializado en la belleza, contamos con  más de 28  años  de experiencia y cuatro  sectores  que te podrán ayudar  a tu preparación de principio a fin así como ofrecerte los mejores servicios:</p>
+<img src="imagenes/eu4.jpg" width="50%" height="50%">
+<p> Instituto Europa es una institución comprometida que busca solucionar las necesidades de cada uno de nuestros alumnos, te brindamos el apoyo necesario para lograr que alcances tus metas y puedas hacer realidad tu sueño de ser un Estilista Profesional, con nosotros no desperdiciaras ni tu tiempo ni tu dinero ya que contamos con un sistema de enseñanza innovador garantizado, por eso y mucho más tiene que vivir la experiencia Instituto Europa.</p>
+<img src="imagenes/eu5.jpg" width="50%" height="50%">
+<p> Estética Europa… Ponte en manos de los profesionales de la belleza.</p>
+ 
+<p>En Estética Europa  te ofrecemos los siguientes servicios:</p>
+<ul>
+  <li>Corte de cabello y peinado</li>
+  <li> Alaciado y rizado permanente</li>
+  <li> Faciales  </li>
+  <li>Maquillaje</li>
+  <li> Rizado y colocación de pestañas  </li>
+  <li>Colocación de uñas de acrílico
+    Manicure y Pedicure</li>
+  <li> Tratamientos corporales
+    Depilación con cera </li>
+</ul>
+
+</div>
+
+       </div>
+      </div>
+       <div data-role="footer"data-theme="a">
+       <h4>Aplicacion final, DCP </h4>
+       </div>
+</div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> LICENCIATURA EN DERECHOI</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+         <p><img src="imagenes/der1.jpg" width="50%" height="50%"> </p>
+     
+        <p> Licenciatura en Derecho, licenciatura en leyes o licenciatura en ciencias jurídicas es el grado académico que se confiere a quienes han concluido exitosamente un proceso de estudios de Derecho en una universidad o institución de estudios superiores.1 El título profesional que se confiere al licenciado en Derecho que cumple los demás requisitos legales es el de abogado.<p>
+       <img src="imagenes/der2.jpg" width="50%" height="50%">
+        <p> El Derecho comienza a ser objeto de estudio desde las primeras civilizaciones. A partir del Código de Hammurabi –(del año 1760 a.C.) primera manifestación jurídica impresa–3 los estudios acerca del Derecho fueron transformándose en una disciplina cada vez más cotidiana en las distintas urbes de los pueblos primitivos. Pese al innegable aporte helenístico al Derecho, son los romanos, sin lugar a dudas, los máximos contribuyentes del Derecho tal cual lo apreciamos en la actualidad,4 aunque en Roma aún no existía el estudio del Derecho de la forma como lo conocemos hoy día. <p>
+       <img src="imagenes/der3.jpg" width="50%" height="50%">
+        <p> En 1088 se funda la primera universidad de la historia: la Universidad de Bolonia, y entre sus primeras carreras de estudios o licenciaturas se encuentra «Derecho».5 En la Edad Media las asignaturas de Derecho recibían los nombres de las partes del Corpus iuris civilis: instituta, digesto, etc</p>
+         <img src="imagenes/der4.jpg" width="50%" height="50%">
+         <p> El primer texto legal que definió expresamente a la figura del «abogado» fue el código de las Siete Partidas de Alfonso X.7 Esta obra constituye además el primer «reglamento» que regula la profesión de abogado y los requisitos mínimos de la licenciatura en Derecho.8 Los abogados debían tener como mínimo 17 años de edad, no poseer defectos físicos, ser varones y conocedores del Derecho. </p>
+         <img src="imagenes/der5.png" width="50%" height="50%">
+         
+ <h1>Universidades que ofrecen la carrera de derecho</h1>
+ 
+  <div data-role="collapsible" data-content-theme="false"> 
+     <h2> UDLAP</h2>
+     <img src="imagenes/uap.jpg" width="50%" height="50%">
+     <p> La meta de la Licenciatura en Derecho es otorgarte todos los conocimientos necesarios para que puedas desempeñarte con éxito en el mundo laboral, ya sea en el sector público o privado. Además, contarás con la experiencia práctica que complementará tu educación y hará de ti un profesional capaz de desempeñar con eficiencia los diferentes roles que una empresa pueda requerir.</p>
+     <img src="imagenes/uap2.jpg" width="50%" height="50%">
+      <p> Asimismo, al concluir tu educación superior, estarás capacitado para continuar tu preparación mediante especialidades y maestrías, las cuales podrás cursar en instituciones nacionales o internacionales, lo que te facultará para laborar en reconocidas empresas a nivel mundial o emprender la construcción de tu propia compañía. </p>
+      <img src="imagenes/uap3.jpg" width="50%" height="50%">
+       <p> Finalmente, como un experto en Derecho, podrás desenvolverte en partidos políticos, notarías, dependencias de gobierno, entre otras opciones, siendo capaz de comprender los fenómenos sociales y resolver problemas de orden jurídico.</p>
+       <img src="imagenes/uap4.jpg" width="50%" height="50%">
+       <p> PERFIL DEL EGRESADO</p>
+
+<p> Al culminar tu carrera, además de haber ampliado tus aptitudes de ingreso, contarás también con:</p>
+<ul>
+  <li>Capacidad para interpretar las normas jurídicas, con el fin de prevenir y solucionar conflictos.</li>
+  <li> Habilidad en el diseño de políticas públicas tendientes a garantizar la justicia, seguridad y el bienestar social.  </li>
+  <li>Pericia al intervenir en la solución de conflictos que se desarrollen ante diferentes tipos de autoridades.</li>
+  <li> Experiencia en la resolución de controversias a través de la negociación, conciliación, mediación y arbitraje, tanto en el ámbito nacional como el internacional.  </li>
+  <li>Participación activa en la elaboración, análisis y seguimiento de iniciativas de ley.</li>
+</ul>
+<a href="http://www.udlap.mx/ofertaacademica/conoce.aspx?cveCarrera=LDE" target="">haz clic aqui para obtener mas informacion</a>
+  </div>
+     
+      <div data-role="collapsible" data-content-theme="false"> 
+     <h2> Universidad Iberoamericana Puebla </h2>
+      <p> 
+Misión</p>
+      <p> La Universidad Iberoamericana Puebla, institución de educación superior de la Compañía de Jesús, tiene como misión formar hombres y mujeres profesionales, competentes, libres y comprometidos para y con los demás; generar conocimiento sustentado en su excelencia académica y humana, en diálogo con las distintas realidades en las que está inmersa, para contribuir a enfrentar las diversas formas de desigualdad y exclusión social con el fin de promover el desarrollo sostenible teniendo como horizonte la construcción de una sociedad más justa y humanamente solidaria. </p>
+      <img src="imagenes/ibero.jpg" width="50%" height="50%">
+       <p> 
+Visión
+</p>
+       <p>Arraigados en el modelo educativo ignaciano, ser una Universidad de referencia por su calidad formativa, de investigación y articulación social, especialmente del Sur de México, con base en su pensamiento crítico, en sus propuestas formativas innovadoras y en la pertinencia de sus programas y proyectos, desde el paradigma de una globalización incluyente y solidaria. </p>
+       <img src="imagenes/ibero2.jpg" width="50%" height="50%">
+        <p> Filosofía</p>
+        <p> La Universidad Iberoamericana es una institución de educación superior cuyo centro es el ser humano, no sólo como universitario y profesionista, sino también como persona y como ser social, político, cultural y religioso. El objetivo de la Ibero es la formación de hombres y mujeres íntegros, cualidad que implica tener una excelencia profesional, aprender a pensar por sí mismos  y ser capaces de encontrar causas por las que vale la pena dedicar la vida y tomar decisiones.</p>
+        <img src="imagenes/ibero3.jpg" width="50%" height="50%">
+        <p> El papel de la Ibero no estaría completo si no buscara la excelencia académica, a través de la actualización y formación de sus profesores, y el mejoramiento de los recursos. Esta meta supone alcanzar un alto desarrollo de las capacidades y actitudes fundamentales de todo hombre. Tal virtud es la que debe desarrollar el estudiante de la Ibero a lo largo de su formación.</p>
+        <p><img src="imagenes/ibero4.jpg" width="50%" height="50%">
+        </p>
+        
+        <a href="https://www.google.com.mx/search?q=universidad+de+las+americas+puebla+carrera+de+derecho&espv=2&biw=1920&bih=905&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiDpOqCpIfNAhXL54MKHcE9D9sQ_AUIBigB&dpr=1#tbm=isch&q=universidad+iberoamericana+&imgrc=D8WUMfiji3XpIM%3A" target="">haz clic aqui para obtener mas informacion</a>
+      </div>
+      
+      <div data-role="collapsible" data-content-theme="false"> 
+     <h2>BUAP </h2>
+      <p>
+Misión</p>
+      <p>La Benemérita Universidad Autónoma de Puebla es una institución pública y autónoma consolidada a nivel nacional, comprometida con la formación integral de profesionales y ciudadanos críticos y reflexivos en los niveles de educación media superior, superior y posgrado, que son capaces de generar, adaptar, recrear, innovar y aplicar conocimientos de calidad y pertinencia social.</p>
+      <p><img src="imagenes/buap3.jpg" width="50%" height="50%"> </p>
+      <p>La Universidad fomenta la investigación, la creación y la divulgación del conocimiento, promueve la inclusión, la igualdad de oportunidades y la vinculación; coadyuva como comunidad del conocimiento al desarrollo del arte, la cultura, la solución de problemas económicos, ambientales, sociales y políticos de la región y del país, bajo una política de transparencia y rendición de cuentas, principios éticos, desarrollo sustentable, en defensa de los derechos humanos, de tolerancia y honestidad; contribuyendo a la creación de una sociedad proactiva, productiva, justa y segura. </p>
+     
+       <p><img src="imagenes/buap.jpg" width="50%" height="50%"></p>
+       <p> Visión</p>
+       <p> La Benemérita Universidad Autónoma de Puebla es líder en el país y cuenta con posicionamiento internacional. La calidad y pertinencia de su oferta educativa y servicios académicos están sustentadas en una planta académica sólida y reconocida, un modelo educativo pertinente, flexible y enfocado en el estudiante, un desarrollo científico y tecnológico, una amplia influencia en la cultura y las artes, una estructura académica que funciona en redes de cooperación y colaboración nacionales e internacionales, una estructura administrativa y de gestión ágil, funcional, acreditada y flexible que apoya el quehacer académico, bajo una política de transparencia, rendición de cuentas y desarrollo sustentable.</p>
+       <p><img src="imagenes/buap2.jpg" width="50%" height="50%"></p>
+     <P>TRANSPARENCIA</P>
+       <P>La Unidad Administrativa de Acceso a la Información de la Benemérita Universidad Autónoma de Puebla, ha asumido con responsabilidad su compromiso de cumplir con la Ley de Transparencia y Acceso a la Información Pública del Estado de Puebla, otorgando de manera clara y oportuna información sobre las diversas actividades de docencia, investigación, difusión y extensión de la cultura así como del manejo de los recursos públicos en sus diversas Unidades Académicas y Dependencias Administrativas.</P>
+      
+       <p><img src="imagenes/buap4.jpg" width="50%" height="50%">         </p>
+       <p><a href=" http://www.bibliotecas.buap.mx/portal/" target="">haz clic aqui para obtener mas informacion</a></p>
+      
+      </div>
+     
+       
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a">
+       <h4>Aplicacion final, DCP </h4>
+       </div>
+</div>
+      
+</div>
+</body>
+</html>
